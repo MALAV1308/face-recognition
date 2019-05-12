@@ -19,6 +19,9 @@ Second, you need to run the extract_embedding.py script. What this does is, base
 Thridly, Base on the previous file, we stored the features according to their represented labels.
 so for example [(128, 1), name_of_the_person] in a binary file, which would be used for recognition later. If another person is being added to the database, make sure you repeat the whole process from the top.
 
+### python train_model.py
+
+
 Finally to recognize, a person on an image or video run the scripts below, and change the file path to where these files can be found.
 
 ### python recognize_image.py (for images)

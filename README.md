@@ -29,10 +29,3 @@ Incase you want to use the web camera, to perform live recognition, use the scri
 
 
 ### python recognize_camera.py
-
-
-### Note, Since these files are too large to be uploaded on github, you may find them in the links below. Please put all these files once downloaded into the folder called /model.
-
-Link are here : https://github.com/spmallick/learnopencv/tree/master/FaceDetectionComparison/models
-
-The name of these files are deploy.prototxt, opencv_face_detector.pbtxt, opencv_face_detector_uint8.pb, res10_300x300_ssd_iter_140000.caffemodel and haarcascade_frontalface_default.xml.

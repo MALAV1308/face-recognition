@@ -32,3 +32,6 @@ Incase you want to use the web camera, to perform live recognition, use the scri
 
 
 ### python recognize_camera.py
+
+
+Reference: Adrian Rosebrock

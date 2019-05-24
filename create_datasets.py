@@ -41,13 +41,13 @@ while(True):
     for (x,y,w,h) in faces:
 
         # Crop the image frame into rectangle
-        cv2.rectangle(image_frame, (x,y), (x+w,y+h), (0,0,0), 2)
+        cv2.rectangle(image_frame, (x,y), (x+w,y+h), (0,0,255), 2)
 
         # Increment sample face image
         count_frame += 1
 
         # Save the captured image into the datasets folder
-        cv2.imwrite("train_img/"+name+"/img_"+ str(count_frame) + ".jpg", gray)
+        cv2.imwrite("dataset/"+name+"/"+name+"_"+ str(count_frame) + ".jpg", gray)
         #cv2.imwrite("dataset/Action_" + str(count_frame) + ".jpg", gray[y:y+h,x:x+w])
 
         # Display the video frame, with bounded rectangle on the person's face
